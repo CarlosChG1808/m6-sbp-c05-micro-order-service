@@ -8,6 +8,10 @@ spring:
   application:
     name: order-service
 
+user:
+  service:
+    url: http://user-service-dev:8081
+
 product:
   service:
     url: http://product-service-dev:8082
