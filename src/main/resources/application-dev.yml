@@ -13,3 +13,7 @@ spring:
     locations: classpath:db/migration/dev
     baseline-on-migrate: true
     validate-on-migrate: true
+
+product:
+  service:
+    url: http://product-service-dev:8082
