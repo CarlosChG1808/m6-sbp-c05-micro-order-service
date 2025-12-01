@@ -6,10 +6,10 @@ FROM eclipse-temurin:17-jre
 WORKDIR /app
 
 # Copy the built JAR file from the target directory to the container
-COPY target/*.jar /app/product-service.jar
+COPY target/*.jar /app/order-service.jar
 
 # Expose port 8081 for the User Service
-EXPOSE 8082
+EXPOSE 8083
 
 # Define the command to run the User Service
-CMD ["java", "-jar", "/app/product-service.jar"]
+CMD ["java", "-jar", "/app/order-service.jar"]
