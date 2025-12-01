@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8083
 
 spring:
   profiles:
@@ -7,3 +7,7 @@ spring:
 
   application:
     name: order-service
+
+product:
+  service:
+    url: http://product-service-dev:8082
